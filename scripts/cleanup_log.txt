@@ -1,0 +1,6 @@
+Cleanup log
+======================================================================
+
+✓ Removed: src/content/articles/19-convento-yecapixtla/image.jpg
+
+Total removed: 1/1

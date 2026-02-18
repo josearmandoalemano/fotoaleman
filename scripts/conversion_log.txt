@@ -1,0 +1,80 @@
+Conversion started at: 2026-02-03 22:30:56.316354
+Quality level: 85
+======================================================================
+
+✓ dist/assets/banner-t3-DQgMyeYK.png -> dist/assets/banner-t3-DQgMyeYK.webp
+✓ dist/assets/banner_congreso_dark-CMDplrh-.png -> dist/assets/banner_congreso_dark-CMDplrh-.webp
+⊘ dist/favicon.jpg (skipped - already exists)
+⊘ public/favicon.jpg (skipped - already exists)
+⊘ public/favicon.png (skipped - already exists)
+✗ src/assets/articles/01-cafe-olla/gallery_01.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_01.jpg
+Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_01.jpg'
+
+✗ src/assets/articles/01-cafe-olla/gallery_02.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_02.jpg
+Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_02.jpg'
+
+✗ src/assets/articles/01-cafe-olla/gallery_03.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_03.jpg
+Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_03.jpg'
+
+✗ src/assets/articles/01-cafe-olla/gallery_04.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_04.jpg
+Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_04.jpg'
+
+✗ src/assets/articles/01-cafe-olla/gallery_05.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_05.jpg
+Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_05.jpg'
+
+✓ src/assets/articles/01-cafe-olla/location.png -> src/assets/articles/01-cafe-olla/location.webp
+✓ src/assets/articles/01-cafe-olla/map-icon.png -> src/assets/articles/01-cafe-olla/map-icon.webp
+✓ src/assets/articles/02-cafe-helado/location.png -> src/assets/articles/02-cafe-helado/location.webp
+✓ src/assets/articles/02-cafe-helado/map-icon.png -> src/assets/articles/02-cafe-helado/map-icon.webp
+✓ src/assets/articles/03-enchiladas-verdes/location.png -> src/assets/articles/03-enchiladas-verdes/location.webp
+✓ src/assets/articles/04-pan-muerto/location.png -> src/assets/articles/04-pan-muerto/location.webp
+✓ src/assets/articles/05-cafeterias-cuernavaca/location.png -> src/assets/articles/05-cafeterias-cuernavaca/location.webp
+✓ src/assets/articles/05-cafeterias-cuernavaca/map-icon.png -> src/assets/articles/05-cafeterias-cuernavaca/map-icon.webp
+✓ src/assets/articles/06-casa-azul-hotel/location.png -> src/assets/articles/06-casa-azul-hotel/location.webp
+✓ src/assets/articles/07-casa-domingo-miacatlan/location.png -> src/assets/articles/07-casa-domingo-miacatlan/location.webp
+✓ src/assets/articles/08-posada-tlaltenango/location.png -> src/assets/articles/08-posada-tlaltenango/location.webp
+✓ src/assets/articles/09-monumento-zapata/location.png -> src/assets/articles/09-monumento-zapata/location.webp
+✓ src/assets/articles/10-hacienda-cocoyoc/location.png -> src/assets/articles/10-hacienda-cocoyoc/location.webp
+✓ src/assets/articles/11-grutas-cacahuamilpa/location.png -> src/assets/articles/11-grutas-cacahuamilpa/location.webp
+✓ src/assets/articles/12-las-estacas/location.png -> src/assets/articles/12-las-estacas/location.webp
+✓ src/assets/articles/13-canonismo-morelos/location.png -> src/assets/articles/13-canonismo-morelos/location.webp
+✓ src/assets/articles/15-ultraligero-tequesquitengo/location.png -> src/assets/articles/15-ultraligero-tequesquitengo/location.webp
+✓ src/assets/articles/19-convento-yecapixtla/location.png -> src/assets/articles/19-convento-yecapixtla/location.webp
+✓ src/assets/articles/20-hacienda-san-antonio/location.png -> src/assets/articles/20-hacienda-san-antonio/location.webp
+✓ src/assets/articles/21-roma-capitolio/location.png -> src/assets/articles/21-roma-capitolio/location.webp
+✓ src/assets/banner-t3.png -> src/assets/banner-t3.webp
+✓ src/assets/banner_congreso_dark.png -> src/assets/banner_congreso_dark.webp
+✓ src/assets/banner_vertical_gastronomy.png -> src/assets/banner_vertical_gastronomy.webp
+✓ src/assets/banner_vertical_travel.png -> src/assets/banner_vertical_travel.webp
+✓ src/assets/icons/google-maps.png -> src/assets/icons/google-maps.webp
+⊘ src/assets/insta_latest_1.jpg (skipped - already exists)
+⊘ src/assets/insta_latest_2.jpg (skipped - already exists)
+⊘ src/assets/insta_latest_3.jpg (skipped - already exists)
+✓ src/assets/lake_morelos.png -> src/assets/lake_morelos.webp
+✓ src/assets/landscape_morelos.png -> src/assets/landscape_morelos.webp
+⊘ src/assets/logo_experiencia.jpg (skipped - already exists)
+⊘ src/assets/logo_experiencia.png (skipped - already exists)
+⊘ src/assets/logo_experiencia_source.jpg (skipped - already exists)
+✓ src/assets/logo_experiencia_v2.png -> src/assets/logo_experiencia_v2.webp
+✓ src/assets/logo_experiencia_v3.png -> src/assets/logo_experiencia_v3.webp
+✓ src/assets/logo_experiencia_v4.png -> src/assets/logo_experiencia_v4.webp
+✓ src/assets/logo_footer.png -> src/assets/logo_footer.webp
+⊘ src/assets/mexico_latest_1.jpg (skipped - already exists)
+⊘ src/assets/mexico_latest_2.jpg (skipped - already exists)
+⊘ src/assets/mexico_latest_3.jpg (skipped - already exists)
+⊘ src/assets/mundo_latest_1.jpg (skipped - already exists)
+⊘ src/assets/mundo_latest_2.jpg (skipped - already exists)
+⊘ src/assets/mundo_latest_3.jpg (skipped - already exists)
+⊘ src/assets/nomada_logo_new.jpg (skipped - already exists)
+✓ src/assets/photo_barge.png -> src/assets/photo_barge.webp
+⊘ src/assets/photo_day_colosseum.jpg (skipped - already exists)
+✓ src/assets/photo_day_final.png -> src/assets/photo_day_final.webp
+⊘ src/assets/photo_day_mountain.jpg (skipped - already exists)
+✓ src/assets/photo_of_day.png -> src/assets/photo_of_day.webp
+✓ src/assets/photo_of_the_day_new.png -> src/assets/photo_of_the_day_new.webp
+✓ src/assets/terra3_logo.png -> src/assets/terra3_logo.webp
+✓ src/content/articles/20-hacienda-san-antonio/image.jpg -> src/content/articles/20-hacienda-san-antonio/image.webp
+
+======================================================================
+Successful: 39, Skipped: 18, Failed: 5
+Conversion completed at: 2026-02-03 22:30:59.254742
