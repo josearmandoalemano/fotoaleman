@@ -95,18 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(el);
     });
 
-    // Generate QR Code
-    const qrContainer = document.getElementById("qrcode");
-    if (qrContainer) {
-        new QRCode(qrContainer, {
-            text: "https://fotoaleman.com",
-            width: 180,
-            height: 180,
-            colorDark: "#1E1E1E",
-            colorLight: "#ffffff",
-            correctLevel: QRCode.CorrectLevel.H
-        });
-    }
+
 
     // --- CAROUSEL LOGIC ---
     const track = document.querySelector('.carousel-track');
