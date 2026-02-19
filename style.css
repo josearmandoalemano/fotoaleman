@@ -1161,14 +1161,34 @@ footer p {
 @media (max-width: 768px) {
 
     /* Hero Section Fixes */
+    /* Header Fixes for Mobile Overlap */
+    header {
+        position: relative !important;
+        /* Force relative positioning */
+        background-color: var(--color-gray);
+        /* Match body bg */
+        padding: 10px 0;
+        top: auto;
+        /* Reset top positioning */
+    }
+
+    .logo img {
+        height: 50px;
+        /* Smaller logo on mobile */
+    }
+
+    /* Hero Section Fixes */
     .hero {
         background-attachment: scroll;
         /* Fix 'fixed' bg issues on mobile */
         background-position: center;
-        min-height: 80vh;
+        min-height: 50vh;
+        /* Further reduced minimum height */
         /* Allow dynamic height */
-        padding: 120px 0 80px 0;
+        padding: 40px 0;
+        /* Minimal padding */
         /* Ensure content spacing */
+        margin-top: 0;
     }
 
     .hero-content h2 {
