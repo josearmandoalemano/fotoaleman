@@ -1156,3 +1156,60 @@ footer p {
         height: 400px;
     }
 }
+
+/* --- MOBILE RESPONSIVENESS FIXES --- */
+@media (max-width: 768px) {
+
+    /* Hero Section Fixes */
+    .hero {
+        background-attachment: scroll;
+        /* Fix 'fixed' bg issues on mobile */
+        background-position: center;
+        min-height: 80vh;
+        /* Allow dynamic height */
+        padding: 120px 0 80px 0;
+        /* Ensure content spacing */
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+        /* Smaller heading */
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Featured/Trayectoria Section Fixes */
+    .featured-section {
+        padding: 60px 0;
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+        /* Stack text and image vertically */
+        gap: 40px;
+        text-align: center;
+    }
+
+    .featured-content {
+        padding: 0 10px;
+    }
+
+    .featured-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .featured-image img {
+        max-height: 400px;
+        /* Prevent image from being too tall on mobile */
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* General Section Header Fixes */
+    .section-header h2 {
+        font-size: 2.2rem;
+    }
+}
