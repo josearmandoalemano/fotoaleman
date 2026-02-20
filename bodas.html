@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodas y Eventos · Foto Alemán</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Foto Alemán - Fotografía profesional de bodas, XV años y eventos sociales en Cuernavaca.">
     <link rel="icon" type="image/png" href="/icon.png">
+
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- TOP BAR -->
-    <div class="top-bar">
-        LUZ QUE TRASCIENDE
-    </div>
-
     <!-- HEADER -->
     <header>
-        <div class="container nav-container">
+        <div class="nav-container">
             <div class="logo">
                 <a href="/index.html">
-                    <img src="Credencial Pepe Aleman.png" alt="Foto Alemán" style="max-height: 80px;">
+                    <img src="Credencial Pepe Aleman.webp" alt="Foto Alemán">
                 </a>
-                <p>José Alemán · 30 años de legado</p>
             </div>
             <nav class="nav-links">
-                <a href="/graduaciones.html">Graduaciones</a>
-                <a href="/estolas.html">Estolas</a>
-                <a href="/bodas.html">Bodas</a>
-                <a href="/empresas.html">Empresas</a>
+                <a href="/#catalogo">Catálogo</a>
                 <a href="/estudio.html">Estudio</a>
-                <a href="/trayectoria.html">Trayectoria</a>
-                <a href="/contacto.html">Contacto</a>
+                <a href="/#trayectoria">Trayectoria</a>
+                <a href="/#historias">Historias</a>
             </nav>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
+            <div class="header-actions">
+                <a href="/contacto.html" class="subscribe-btn">Contacto</a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -182,21 +189,56 @@
     <!-- FOOTER -->
     <footer>
         <div class="container">
-            <div class="social-links" style="margin: 20px 0;">
+            <div class="social-links" style="margin-bottom: 30px;">
                 <a href="https://www.instagram.com/foto_aleman_/" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/FotoAleman" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.tiktok.com/@fotoaleman" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-tiktok"></i></a>
-                <a href="https://wa.me/5217771923760" target="_blank" style="margin: 0 10px; font-size: 1.5rem;"><i
-                        class="fab fa-whatsapp"></i></a>
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/5217771923760" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <p style="margin-top: 10px;">&copy; 2026 Foto Alemán · Treinta años de mirada única.</p>
+
+            <div class="bank-details">
+                <h3>Datos Bancarios</h3>
+                <p>Titular: <strong>José Armando Alemán Olvera</strong></p>
+                <div class="bank-grid">
+                    <div class="bank-item">
+                        <span class="label">Banamex</span>
+                        <span class="number">002546901692966689</span>
+                    </div>
+                    <div class="bank-item">
+                        <span class="label">Banorte</span>
+                        <span class="number">072540010778740358</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
+                <p>&copy; 2026 FOTO ALEMÁN. TODOS LOS DERECHOS RESERVADOS.</p>
+                <p style="margin-top: 10px; font-size: 0.65rem; opacity: 0.5;">
+                    Desarrollado por <a href="https://dochoar.github.io/" target="_blank"
+                        style="text-decoration: none; color: inherit; transition: opacity 0.3s;">David Ochoa</a>
+                </p>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- SCRIPTS -->
+    <script src="/script.js"></script>
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>
