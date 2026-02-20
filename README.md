@@ -1,4 +1,4 @@
-# Nómada Revista Digital 🌍📸
+# Foto Alemán 🌍📸
 
 > Una experiencia digital inmersiva dedicada a promover el turismo, la cultura y la riqueza de Morelos.
 
