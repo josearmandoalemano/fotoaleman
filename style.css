@@ -543,7 +543,7 @@ header.scrolled .mobile-menu-btn {
     box-shadow: none;
     overflow: hidden;
     transition: var(--transition);
-    text-align: left;
+    text-align: center;
     display: block;
     padding: 0;
 }
@@ -600,6 +600,10 @@ header.scrolled .mobile-menu-btn {
     margin-bottom: 10px;
     padding: 0;
     line-height: 1.2;
+    min-height: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: color 0.3s ease;
 }
 
@@ -613,6 +617,7 @@ header.scrolled .mobile-menu-btn {
     margin-bottom: 15px;
     padding: 0;
     line-height: 1.6;
+    min-height: 3.2em;
 }
 
 .card-link {
