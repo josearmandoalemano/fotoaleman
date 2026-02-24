@@ -1213,11 +1213,28 @@ footer p {
     header {
         position: relative !important;
         /* Force relative positioning */
-        background-color: var(--color-gray);
-        /* Match body bg */
+        background-color: var(--color-white) !important;
+        /* Match logo bg */
         padding: 10px 0;
         top: auto;
         /* Reset top positioning */
+        z-index: 1002;
+    }
+
+    .nav-container {
+        padding: 0 15px;
+        /* Reduce padding on mobile to prevent squishing */
+    }
+
+    .header-actions {
+        gap: 15px;
+        /* Decrease gap on mobile */
+    }
+
+    .subscribe-btn {
+        padding: 6px 14px;
+        /* Ensure button fits better on small screens */
+        font-size: 0.70rem;
     }
 
     #estolas {
@@ -1305,11 +1322,14 @@ footer p {
         background-color: #ffffff;
         /* Explicit white background */
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        padding-top: 100px;
+        /* Space for the header */
         transform: translateY(-100%);
         transition: transform 0.3s ease-in-out;
         z-index: 1000;
+        overflow-y: auto;
         /* Ensure it's above everything but the button */
     }
 
@@ -1318,9 +1338,9 @@ footer p {
     }
 
     .nav-links a {
-        font-size: 1.5rem;
-        margin: 20px 0;
-        /* More spacing */
+        font-size: 1.2rem;
+        margin: 15px 0;
+        /* Balanced spacing */
         color: #000000 !important;
         /* Force black text */
         font-weight: 600;
