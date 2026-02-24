@@ -1235,6 +1235,9 @@ footer p {
         padding: 6px 14px;
         /* Ensure button fits better on small screens */
         font-size: 0.70rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #estolas {
