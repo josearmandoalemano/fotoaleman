@@ -50,21 +50,98 @@
     </header>
 
     <!-- SECTION: CONTENT -->
-    <section class="section-padding"
-        style="min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: var(--color-white);">
+    <section class="section-padding" style="background-color: var(--color-white); padding-bottom: 0;">
         <div class="container" style="text-align: center;">
             <div class="section-header fade-in">
                 <h2>Fotografía de Producto</h2>
                 <p>Destaca la esencia y los detalles de tu marca con iluminación perfecta.</p>
             </div>
+        </div>
+    </section>
 
-            <!-- Empty container for future content -->
-            <div class="producto-content fade-in" style="margin-top: 40px;">
-                <p style="color: #666; font-style: italic;">(Espacio reservado para galerías y fotografías de producto)
+    <!-- SECTION: IMPACT -->
+    <section class="section-padding" style="background-color: #1a1a1a; color: #fff; text-align: center;">
+        <div class="container fade-in">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <span
+                    style="color: var(--color-gold); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: 600;">Estrategia
+                    Comercial</span>
+                <h2
+                    style="color: #fff; margin-top: 15px; margin-bottom: 25px; font-family: 'Playfair Display', serif; font-size: 2.2rem;">
+                    Imágenes que impulsan tu negocio</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; opacity: 0.8; font-family: 'Inter', sans-serif;">
+                    Cada producto tiene una historia que contar y un valor que transmitir.
+                    Combinamos técnica fotográfica avanzada con una visión comercial para crear catálogos y campañas
+                    que capturen la atención de tus clientes y resalten la calidad de tu marca.
                 </p>
             </div>
         </div>
     </section>
+
+    <!-- SECTION: PRODUCT GALLERY -->
+    <section class="section-padding" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="product-gallery">
+                <!-- Large landscape -->
+                <div class="gallery-item large-item fade-in">
+                    <img src="producto-orquidea.jpg" alt="Fotografía de Orquídea">
+                </div>
+                <!-- Vertical -->
+                <div class="gallery-item fade-in">
+                    <img src="producto-flores-bolsa.jpg" alt="Diseño Floral en Bolsa">
+                </div>
+                <!-- Vertical -->
+                <div class="gallery-item fade-in">
+                    <img src="producto-david.jpg" alt="Maceta Cabeza de David">
+                </div>
+                <!-- Landscape -->
+                <div class="gallery-item medium-item fade-in">
+                    <img src="producto-perro-globo.jpg" alt="Maceta Perro Globo">
+                </div>
+                <!-- Square/Vertical -->
+                <div class="gallery-item fade-in">
+                    <img src="producto-dinosaurio.jpg" alt="Maceta Dinosaurio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            background: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .large-item {
+            grid-column: span 2;
+        }
+
+        @media (max-width: 768px) {
+            .large-item {
+                grid-column: span 1;
+            }
+        }
+    </style>
 
     <!-- FOOTER -->
     <footer>
