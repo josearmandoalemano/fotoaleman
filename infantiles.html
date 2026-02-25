@@ -63,15 +63,20 @@
     <section class="section-padding" style="background-color: #f9f9f9; padding-top: 20px;">
         <div class="container">
             <div class="infantiles-gallery">
-                <div class="gallery-item item-retrato fade-in">
-                    <img src="Fotos Infantiles/embarazada.jpg" alt="Maternidad" class="hover-zoom">
+                <!-- Columna Izquierda -->
+                <div class="gallery-column">
+                    <div class="gallery-item fade-in">
+                        <img src="Fotos Infantiles/embarazada.jpg" alt="Maternidad" class="hover-zoom">
+                    </div>
                 </div>
-                <!-- Columna derecha agrupada por grid / grid de dos rows -->
-                <div class="gallery-item item-nina fade-in">
-                    <img src="Fotos Infantiles/nina.jpg" alt="Niña Recostada" class="hover-zoom">
-                </div>
-                <div class="gallery-item item-familia fade-in">
-                    <img src="Fotos Infantiles/familia.jpg" alt="Retrato Familiar" class="hover-zoom">
+                <!-- Columna Derecha -->
+                <div class="gallery-column">
+                    <div class="gallery-item fade-in" style="margin-bottom: 20px;">
+                        <img src="Fotos Infantiles/nina.jpg" alt="Niña Recostada" class="hover-zoom">
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="Fotos Infantiles/familia.jpg" alt="Retrato Familiar" class="hover-zoom">
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,12 +84,16 @@
 
     <style>
         .infantiles-gallery {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-auto-rows: 250px;
+            display: flex;
             gap: 20px;
             max-width: 1000px;
             margin: 0 auto;
+        }
+
+        .gallery-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
         }
 
         .gallery-item {
@@ -96,8 +105,7 @@
 
         .gallery-item img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
             transition: transform 0.5s ease;
             display: block;
         }
@@ -106,33 +114,13 @@
             transform: scale(1.05);
         }
 
-        /* Responsive Masonry imitation */
-        .item-retrato {
-            grid-column: 1 / 2;
-            grid-row: 1 / 3;
-        }
-
-        .item-nina {
-            grid-column: 2 / 3;
-            grid-row: 1 / 2;
-        }
-
-        .item-familia {
-            grid-column: 2 / 3;
-            grid-row: 2 / 3;
-        }
-
         @media (max-width: 768px) {
             .infantiles-gallery {
-                grid-template-columns: 1fr;
-                grid-auto-rows: minmax(300px, auto);
+                flex-direction: column;
             }
 
-            .item-retrato,
-            .item-nina,
-            .item-familia {
-                grid-column: 1 / -1;
-                grid-row: auto;
+            .gallery-item {
+                margin-bottom: 20px;
             }
         }
     </style>
