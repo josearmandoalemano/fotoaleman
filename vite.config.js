@@ -20,6 +20,7 @@ export default defineConfig({
         producto: 'producto.html',
         infantiles: 'infantiles.html',
         politica: 'politica.html',
+        pagos: 'pagos.html',
       },
     },
   },
