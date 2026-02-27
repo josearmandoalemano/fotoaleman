@@ -197,7 +197,7 @@ export const restaurants = [
 
     {
         id: 10, name: "Casa Taxco", category: "Restaurantes",
-        description: "Sabor mexicano con más de 30 años de tradición.",
+        description: "Sabor mexicano con más de 40 años de tradición.",
         captivatingDescription: "Restaurante familiar de comida mexicana, establecidos desde 1990. El sabor de siempre, el que nunca falla.",
         founded: "1990",
         history: "Una empresa familiar que ha crecido gracias a su constancia y a mantener las recetas originales de la abuela. En la actualidad existen 4 sucursales.",
