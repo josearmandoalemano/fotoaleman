@@ -33,23 +33,7 @@ if (images.length > 0) {
             if (modal) {
                 modal.style.display = "block";
                 modalImg.src = this.src;
-                // Try to find the title in the card content
-                // Try to find the title and price in the card content
-                var cardContent = this.nextElementSibling;
-                if (cardContent) {
-                    var title = cardContent.querySelector("h3");
-                    var type = cardContent.querySelector(".card-type");
-                    var price = cardContent.querySelector(".card-price");
-
-                    var captionHTML = "";
-                    if (title) captionHTML += "<h3>" + title.innerHTML + "</h3>";
-                    if (type) captionHTML += "<p>" + type.innerHTML + "</p>";
-                    if (price) captionHTML += "<div class='card-price' style='color: var(--color-gold); font-weight: 700; margin-top: 10px;'>" + price.innerHTML + "</div>";
-
-                    captionText.innerHTML = captionHTML || this.alt;
-                } else {
-                    captionText.innerHTML = this.alt;
-                }
+                captionText.innerHTML = this.alt;
             }
         }
     });
